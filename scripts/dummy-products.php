@@ -11,7 +11,7 @@ for ($i = 0; $i < 100; $i++) {
     $price = rand(10, 1000);
     $rating = rand(0, 5);
     $description = "Description for Product " . $i;
-    $sql = "INSERT INTO products (name, price, description) VALUES ('$name', $price, '$description', '$rating')";
+    $sql = "INSERT INTO products (name, price, rating, description) VALUES ('$name', $price,  '$rating', '$description')";
 
     if (!$mysqli->query($sql)) {
         echo "Error: " . $mysqli->error;
