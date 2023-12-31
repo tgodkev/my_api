@@ -1,4 +1,5 @@
 <?php
+
 $mysqli = new mysqli("localhost", "root", "", "api");
 
 if($mysqli -> connect_error){

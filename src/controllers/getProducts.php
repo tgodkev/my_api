@@ -1,6 +1,6 @@
 <?php
 include_once '../../scripts/dbConnect.php';
-
+global $mysqli;
 
 header('Content-Type: application/json');
 

@@ -1,5 +1,6 @@
 <?php
 include_once '../../scripts/dbConnect.php';
+global $mysqli;
 
 $id = $_GET['id'];
 
